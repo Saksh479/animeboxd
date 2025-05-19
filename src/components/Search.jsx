@@ -1,14 +1,14 @@
 import React from "react";
 
 const Search = ({ searchTerm, setSearchTerm }) => {
-    const handleSearchTerm = (e) =>{
-      setSearchTerm(e.target.value)
-    }
+  const handleSearchTerm = (e) => {
+    setSearchTerm(e.target.value)
+  }
   return (
     <div className="search">
       <input
         type="text"
-        placeholder="Search MovieBox"
+        placeholder="Search Animeboxd"
         defaultValue={searchTerm}
         onChange={handleSearchTerm}
       />
